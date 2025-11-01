@@ -16,3 +16,4 @@ python scripts/local_server.py --host 0.0.0.0 --port 5000
 
 curl -s -X POST "http://127.0.0.1:5000/generate" -H "Content-Type: application/json" \
   -d '{"user_id":"me","prompt":"Write a short joke about onions.","mode":"balanced","max_new_tokens":50}' | jq# GPT2-model-intgration-in-website
+# zoid-gpt2-chat-app
