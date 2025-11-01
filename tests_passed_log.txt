@@ -1,0 +1,130 @@
+
+=================================== ERRORS ====================================
+_ ERROR collecting gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_concept_grounding.py _
+ImportError while importing test module 'C:\Users\muSA\Downloads\Compressed\New folder\Zoid-main\gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_concept_grounding.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_concept_grounding.py:3: in <module>
+    from src.hypercube.topology import Hypercube
+E   ModuleNotFoundError: No module named 'src.hypercube'
+_ ERROR collecting gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_distillation.py _
+ImportError while importing test module 'C:\Users\muSA\Downloads\Compressed\New folder\Zoid-main\gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_distillation.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_distillation.py:9: in <module>
+    from gpt2_hypercube_phase1.src.distillation.distiller import Distiller, CHECKPOINT_DIR
+E   ModuleNotFoundError: No module named 'gpt2_hypercube_phase1.src.distillation'
+_ ERROR collecting gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_inference.py _
+ImportError while importing test module 'C:\Users\muSA\Downloads\Compressed\New folder\Zoid-main\gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_inference.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_inference.py:7: in <module>
+    from src.deployment.dialogue_state import DialogueState
+E   ModuleNotFoundError: No module named 'src.deployment'
+_ ERROR collecting gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_numerical_stability.py _
+ImportError while importing test module 'C:\Users\muSA\Downloads\Compressed\New folder\Zoid-main\gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_numerical_stability.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_numerical_stability.py:3: in <module>
+    from src.core.quantized_gpt2 import QuantizedGPT2
+E   ModuleNotFoundError: No module named 'src.core'
+_ ERROR collecting gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_phase6.py _
+ImportError while importing test module 'C:\Users\muSA\Downloads\Compressed\New folder\Zoid-main\gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_phase6.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_phase6.py:7: in <module>
+    from gpt2_hypercube_phase1.src.evaluation.metrics import (
+E   ModuleNotFoundError: No module named 'gpt2_hypercube_phase1.src.evaluation'
+_ ERROR collecting gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_sample_quality.py _
+ImportError while importing test module 'C:\Users\muSA\Downloads\Compressed\New folder\Zoid-main\gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_sample_quality.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+gpt2_hypercube_phase1\gpt2-hypercube-phase1\tests\test_sample_quality.py:2: in <module>
+    from src.core.quantized_gpt2 import QuantizedGPT2
+E   ModuleNotFoundError: No module named 'src.core'
+============================== warnings summary ===============================
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1075: 34 warnings
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1075: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    syms.append(ast.Str(sym))
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1077: 33 warnings
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:1077: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    expls.append(ast.Str(expl))
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:826: 175 warnings
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:826: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    keys = [ast.Str(key) for key in current.keys()]
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:936: 29 warnings
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:936: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    assertmsg = ast.Str("")
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:938: 35 warnings
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:938: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    template = ast.BinOp(assertmsg, ast.Add(), ast.Str(explanation))
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:950: 36 warnings
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:950: DeprecationWarning: ast.NameConstant is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    clear = ast.Assign(variables, ast.NameConstant(None))
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:962: 42 warnings
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:962: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    inlocs = ast.Compare(ast.Str(name.id), [ast.In()], [locs])
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:965: 42 warnings
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:965: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    expr = ast.IfExp(test, self.display(name), ast.Str(name.id))
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:692
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:692
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:692
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:692: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    and isinstance(item.value, ast.Str)
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:694
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:694
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:694
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:694: DeprecationWarning: Attribute s is deprecated and will be removed in Python 3.14; use value instead
+    doc = item.value.s
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:987
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:987
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:987
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:987
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:987
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:987
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:987
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:987
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:987: DeprecationWarning: ast.Str is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    expl_format = self.pop_format_context(ast.Str(expl))
+
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:999
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:999
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:999
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:999
+..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:999
+  C:\Users\muSA\AppData\Local\Programs\Python\Python313\Lib\site-packages\_pytest\assertion\rewrite.py:999: DeprecationWarning: ast.Num is deprecated and will be removed in Python 3.14; use ast.Constant instead
+    expl_template = self.helper("_format_boolop", expl_list, ast.Num(is_or))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_concept_grounding.py
+ERROR gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_distillation.py
+ERROR gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_inference.py
+ERROR gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_numerical_stability.py
+ERROR gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_phase6.py
+ERROR gpt2_hypercube_phase1/gpt2-hypercube-phase1/tests/test_sample_quality.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 6 errors during collection !!!!!!!!!!!!!!!!!!!
+445 warnings, 6 errors in 15.95s

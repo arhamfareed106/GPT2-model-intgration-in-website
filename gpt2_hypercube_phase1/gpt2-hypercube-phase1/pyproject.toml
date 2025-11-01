@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gpt2-hypercube-phase1"
+version = "0.1.0"
+description = "Phase 1 of the GPT-2 Hypercube project, focusing on quantization, pruning, and hypercube topology."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.9.0"
+transformers = "^4.11.3"
+datasets = "^1.14.0"
+numpy = "^1.21.0"
+scipy = "^1.7.0"
+pyyaml = "^5.4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

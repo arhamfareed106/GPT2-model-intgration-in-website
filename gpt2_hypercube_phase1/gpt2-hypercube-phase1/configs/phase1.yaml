@@ -1,0 +1,26 @@
+quantization:
+  method: "4-bit"
+  target_size_mb: 63
+  verify_stability: true
+
+pruning:
+  enabled: true
+  low_importance_threshold: 0.1
+
+hypercube:
+  dimensions: 4
+  vertex_count: 16
+  topology_definition: "standard"
+
+embedding:
+  concept_mapping_enabled: true
+  mapping_file: "concept_mapping.json"
+
+routing:
+  bit_transition_enabled: true
+  hamming_distance: 1
+
+testing:
+  numerical_stability_tests: true
+  sample_quality_tests: true
+  test_output_directory: "test_outputs"

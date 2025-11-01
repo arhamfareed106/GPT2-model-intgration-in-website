@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.zoid-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
+.zoid-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.zoid-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.zoid-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 4px;
+}
+
+.dark .zoid-scrollbar {
+  scrollbar-color: #475569 #1e293b;
+}
+
+.dark .zoid-scrollbar::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.dark .zoid-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #475569;
+}
